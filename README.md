@@ -2,13 +2,12 @@
 
 This project is a complete serverless REST API to manage a simple to-do list. It is built using the AWS Cloud Development Kit (CDK) and features a backend powered by API Gateway, Lambda, and DynamoDB, with a static frontend hosted on S3.
 
-![Application Screenshot](docs/images/app.png)
-
 ## Architecture
 
 The application follows a serverless, event-driven architecture. All resources are defined as infrastructure-as-code using the AWS CDK.
 
-![Architecture Diagram](docs/images/architecture.png)
+<img width="1368" height="534" alt="Screenshot 2025-08-16 184336" src="https://github.com/user-attachments/assets/356860d9-b0fb-41fe-b950-6c4058b626ef" />
+
 
 1.  **Frontend**: A static website built with HTML, CSS, and JavaScript is hosted in an **Amazon S3 bucket**.
 2.  **API**: **Amazon API Gateway** provides the REST endpoints for the frontend to interact with.
@@ -56,8 +55,6 @@ If this is your first time using the AWS CDK in this AWS account and region, you
 cdk bootstrap
 ```
 
-![CDK Bootstrap](docs/images/bootstrap.png)
-
 ### 4. Deploy the Stack
 
 Deploy the application to your AWS account:
@@ -67,8 +64,6 @@ cdk deploy
 ```
 
 The CDK will show you the resources that will be created and ask for your confirmation to proceed. After the deployment is complete, you will see the `ApiUrl` and `WebsiteUrl` in the output.
-
-![CDK Deploy](docs/images/deploy.png)
 
 ### 5. Update the API URL
 
