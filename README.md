@@ -6,7 +6,8 @@ This project is a complete serverless REST API to manage a simple to-do list. It
 
 The application follows a serverless, event-driven architecture. All resources are defined as infrastructure-as-code using the AWS CDK.
 
-<img width="1368" height="534" alt="Screenshot 2025-08-16 184336" src="https://github.com/user-attachments/assets/356860d9-b0fb-41fe-b950-6c4058b626ef" />
+<img width="1210" height="458" alt="Screenshot 2025-08-16 194153" src="https://github.com/user-attachments/assets/827e118d-eda7-43c3-baee-17e2dbda2f22" />
+
 
 
 1.  **Frontend**: A static website built with HTML, CSS, and JavaScript is hosted in an **Amazon S3 bucket**.
